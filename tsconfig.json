@@ -4,7 +4,7 @@
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "esnext",
     "moduleResolution": "node",
     "sourceMap": true,
     "rootDir": "./src",
@@ -13,5 +13,5 @@
     "noImplicitAny": true
   },
   "exclude": ["node_modules"],
-  "lib": ["es2015"]
+  "lib": ["esnext", "dom"]
 }

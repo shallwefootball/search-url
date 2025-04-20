@@ -1,6 +1,6 @@
 {
-	"name": "flow-launcher-plugin-template-node",
-	"description": "Flow Launcher plugin template for Node.js",
+	"name": "flow-launcher-plugin-stock-link",
+	"description": "Flow Launcher plugin Stock Link",
 	"main": "./dist/main.js",
 	"scripts": {
 		"dev": "tsc --watch",
@@ -14,6 +14,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.18",
+		"@types/node-fetch": "^2.6.12",
 		"@typescript-eslint/eslint-plugin": "^5.52.0",
 		"@typescript-eslint/parser": "^5.52.0",
 		"eslint": "^8.34.0",
@@ -23,6 +24,7 @@
 		"typescript": "^4.9.4"
 	},
 	"dependencies": {
+		"node-fetch": "^2.7.0",
 		"open": "^8.4.0",
 		"winston": "^3.8.2",
 		"zod": "^3.20.6"
